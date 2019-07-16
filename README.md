@@ -1,6 +1,7 @@
 # daily-coding-problem-in-rust
 Solve https://www.dailycodingproblem.com/ in rust.
 
++ [ ] [vineetjohn](vineetjohn/)
 
 ## Acknowledgement
 + https://github.com/vineetjohn/daily-coding-problem

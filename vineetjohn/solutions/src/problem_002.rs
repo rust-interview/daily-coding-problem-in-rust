@@ -35,7 +35,6 @@ pub fn get_factors(array: Vec<i64>) -> Vec<i64> {
 
 #[cfg(test)]
 mod tests {
-    // Note this useful idiom: importing names from outer (for mod tests) scope.
     use super::*;
 
     #[test]

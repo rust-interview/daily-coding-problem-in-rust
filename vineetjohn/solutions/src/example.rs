@@ -1,6 +1,7 @@
 #[allow(dead_code)]
-pub fn add(a: i32,  b: i32) -> i32 {
-    return a + b
+pub fn add(a: i32, b: i32) -> i32 {
+    println!("{}", a + b);
+    return a + b;
 }
 
 #[cfg(test)]

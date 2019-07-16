@@ -4,12 +4,13 @@ use std::collections::HashSet;
 pub fn check_sums(array: Vec<i64>, k: i64) -> bool {
     let mut potential_solutions: HashSet<i64> = HashSet::new();
     for num in array.iter() {
-        if potential_solutions.contains(num){
-            return true
+        if potential_solutions.contains(num) {
+            return true;
         }
-        potential_solutions.insert(k-(*num));
+        potential_solutions.insert(k - (*num));
     }
-    return false
+
+    return false;
 }
 
 #[cfg(test)]

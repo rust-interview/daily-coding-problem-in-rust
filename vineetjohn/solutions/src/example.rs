@@ -11,5 +11,6 @@ mod tests {
     #[test]
     fn test_add() {
         assert_eq!(add(1, 2), 3);
+        assert_ne!(add(1, 2), 4);
     }
 }

@@ -1,9 +1,10 @@
 # daily-coding-problem-in-rust
 Solve https://www.dailycodingproblem.com/ in rust.
 
+## Progress
 + [ ] [vineetjohn](vineetjohn/) (WIP)
     ```
-    cd vineetjohn/solutions/
+    cd vineetjohn/
     cargo test
     ```
 

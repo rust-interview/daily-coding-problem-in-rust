@@ -1,7 +1,7 @@
 pub struct Solution {}
 
 impl Solution {
-    pub fn get_factors(array: Vec<i64>) -> Vec<i64> {
+    pub fn get_factors(mut array: Vec<i64>) -> Vec<i64> {
         let mut cumulative_product: i64 = 1;
         let mut right_prod_array: Vec<i64> = Vec::new();
         for num in array.iter() {
@@ -11,9 +11,8 @@ impl Solution {
 
         cumulative_product = 1;
         let mut left_prod_array: Vec<i64> = Vec::new();
-        let mut rev = array.clone();
-        rev.reverse();
-        for num in rev.iter() {
+        array.reverse();
+        for num in array.iter() {
             cumulative_product *= num;
             left_prod_array.push(cumulative_product);
         }
